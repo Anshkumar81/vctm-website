@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #fff;
+}
+
+.top{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    height: 22px;
+    background-color: #0A56C2;
+    color: white;
+    list-style: none;
+}
+.top li{
+    display: flex;
+    cursor: pointer;
+    padding-top: 4px;
+    margin-right: 35px;
+    gap: 12px;
+}
+
+.navbar-list{
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.navbar-list li:hover{
+    color: #db4141;
+}
+.vctm{
+    color: blue;
+    font-weight: 800;
+}
+.hero{
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    display: flex;
+    background: #1E90FF;
+    flex-direction: column;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+h2{
+    font-weight: 100;
+}
+.button{
+    display: flex;
+}
+.adm-btn{
+    height: 40px;
+    width: 230px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background-color: #0d6efd;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.adm-btn:hover{
+    background-color: #0A56C2;
+    transition: all 0.5s ease-in-out ;
+}
+
+.not-btn{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.not-btn:hover{
+    background-color: #fff;
+    color: black;
+    transition: all 0.5s ease-in-out ;
+
+}
+h4{
+    font-size: 500px;
+}
+.campus-img {
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+    border: 2px solid black;
+    display: flex;
+}
+.campus-dtl {
+    height: 40px;
+    width: 100%;
+    background-color: #294c81;
+    color: white;
+    text-align: center;
+}
+.campus-info {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.Noticeboard {
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 1px 1px 1px 1px;
+}
+.Noticeboard:hover {
+    z-index: 100;
+    box-shadow: 2px 2px 2px 2px;
+    transform: translatex(20px);
+    transition: all 0.3s ease-in-out;
+}
+.head {
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: #294c81;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.head-btn {
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: space-around;
+}
+.btn {
+    height: 40px;
+    width: 100px;
+    background-color: #294c81;
+    color: white;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.class {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+.COURSES {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.COURSES :hover {
+    color: red;
+    cursor: pointer;
+    transform: translatex(10px);
+    transition: all 0.3s ease-in-out;
+}
+.Recruiters {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.company {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+.company :hover {
+    height: 152px;
+    width: 152px;
+    transform: translatey(20px);
+    transition: all 0.3s ease-in-out;
+}
+
+.Student{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.corner {
+    height: 250px;
+    width: 280px;
+    cursor: pointer;   
+    border: 1px solid black;
+}
+.Student :hover {
+    transition: all 0.3s ease-in-out;
+    transform: translatex(10px);
+}
+.approval {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.approval-logo {
+    height: 150px;
+    width: 150px;
+    
+}
+.footer {
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 20px;
+    color: white;
+    border: 2px solid black;
+    background-color: #294c81;
+    display: flex;
+    justify-content: space-evenly;
+}
+p1{
+    font-size: 22px;
+}
+p{
+    margin-top: 10px;
+}
+p:hover {
+    color: #b66565;
+}
+.underline {
+    height: 0px;
+    width: 100%;
+    border: 2px solid white;
+    position: absolute;
+    margin-top: 320px;
+}
+p2 {
+    position:absolute;
+    margin-top: 340px;
+    font-size: 12px;
+}
+.head-img {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+p3 {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 180px;
+    position: absolute;
+}
+.ul-list {
+    padding-left: 30px;
+    padding-top: 30px;
+}
