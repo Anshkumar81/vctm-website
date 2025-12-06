@@ -1,12 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
-.navbar{
+
+.navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -14,7 +15,7 @@ body{
     background-color: #fff;
 }
 
-.top{
+.top {
     display: flex;
     font-size: 12px;
     justify-content: space-between;
@@ -23,7 +24,8 @@ body{
     color: white;
     list-style: none;
 }
-.top li{
+
+.top li {
     display: flex;
     cursor: pointer;
     padding-top: 4px;
@@ -31,7 +33,7 @@ body{
     gap: 12px;
 }
 
-.navbar-list{
+.navbar-list {
     display: flex;
     font-size: 20px;
     list-style: none;
@@ -40,14 +42,17 @@ body{
     justify-content: space-evenly;
     cursor: pointer;
 }
-.navbar-list li:hover{
+
+.navbar-list li:hover {
     color: #db4141;
 }
-.vctm{
+
+.vctm {
     color: blue;
     font-weight: 800;
 }
-.hero{
+
+.hero {
     margin-top: 25px;
     justify-content: center;
     align-items: center;
@@ -57,17 +62,21 @@ body{
     flex-direction: column;
     color: white;
 }
-h1{
+
+h1 {
     font-size: 50px;
     font-weight: 800;
 }
-h2{
+
+h2 {
     font-weight: 100;
 }
-.button{
+
+.button {
     display: flex;
 }
-.adm-btn{
+
+.adm-btn {
     height: 40px;
     width: 230px;
     margin-right: 15px;
@@ -79,12 +88,12 @@ h2{
     cursor: pointer;
 }
 
-.adm-btn:hover{
+.adm-btn:hover {
     background-color: #0A56C2;
-    transition: all 0.5s ease-in-out ;
+    transition: all 0.5s ease-in-out;
 }
 
-.not-btn{
+.not-btn {
     height: 40px;
     width: 120px;
     font-size: 16px;
@@ -96,15 +105,17 @@ h2{
     cursor: pointer;
 }
 
-.not-btn:hover{
+.not-btn:hover {
     background-color: #fff;
     color: black;
-    transition: all 0.5s ease-in-out ;
+    transition: all 0.5s ease-in-out;
 
 }
-h4{
+
+h4 {
     font-size: 500px;
 }
+
 .campus-img {
     height: 500px;
     width: 100%;
@@ -112,6 +123,7 @@ h4{
     border: 2px solid black;
     display: flex;
 }
+
 .campus-dtl {
     height: 40px;
     width: 100%;
@@ -119,11 +131,13 @@ h4{
     color: white;
     text-align: center;
 }
+
 .campus-info {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
+
 .Noticeboard {
     height: 300px;
     width: 350px;
@@ -133,12 +147,14 @@ h4{
     background-color: #f5f5f5;
     box-shadow: 1px 1px 1px 1px;
 }
+
 .Noticeboard:hover {
     z-index: 100;
     box-shadow: 2px 2px 2px 2px;
     transform: translatex(20px);
     transition: all 0.3s ease-in-out;
 }
+
 .head {
     height: 40px;
     width: 350px;
@@ -148,12 +164,14 @@ h4{
     font-size: 20px;
     text-align: center;
 }
+
 .head-btn {
     display: flex;
     margin-top: 10px;
     text-align: center;
     justify-content: space-around;
 }
+
 .btn {
     height: 40px;
     width: 100px;
@@ -162,34 +180,40 @@ h4{
     padding-top: 5px;
     border-radius: 10px;
 }
+
 .class {
     height: 150px;
     width: 150px;
     border: 2px solid black;
 }
+
 .COURSES {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
 }
+
 .COURSES :hover {
     color: red;
     cursor: pointer;
     transform: translatex(10px);
     transition: all 0.3s ease-in-out;
 }
+
 .Recruiters {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
 }
+
 .company {
     height: 150px;
     width: 150px;
     cursor: pointer;
 }
+
 .company :hover {
     height: 152px;
     width: 152px;
@@ -197,32 +221,37 @@ h4{
     transition: all 0.3s ease-in-out;
 }
 
-.Student{
+.Student {
     margin-top: 23px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
 }
+
 .corner {
     height: 250px;
     width: 280px;
-    cursor: pointer;   
+    cursor: pointer;
     border: 1px solid black;
 }
+
 .Student :hover {
     transition: all 0.3s ease-in-out;
     transform: translatex(10px);
 }
+
 .approval {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
 }
+
 .approval-logo {
     height: 150px;
     width: 150px;
-    
+
 }
+
 .footer {
     height: 400px;
     width: 100%;
@@ -234,15 +263,19 @@ h4{
     display: flex;
     justify-content: space-evenly;
 }
-p1{
+
+p1 {
     font-size: 22px;
 }
-p{
+
+p {
     margin-top: 10px;
 }
+
 p:hover {
     color: #b66565;
 }
+
 .underline {
     height: 0px;
     width: 100%;
@@ -250,23 +283,140 @@ p:hover {
     position: absolute;
     margin-top: 320px;
 }
+
 p2 {
-    position:absolute;
+    position: absolute;
     margin-top: 340px;
     font-size: 12px;
 }
+
 .head-img {
     position: absolute;
     margin-left: 50px;
     margin-top: 10px;
 }
+
 p3 {
     font-size: 14px;
     padding-left: 20px;
     padding-top: 180px;
     position: absolute;
 }
+
 .ul-list {
     padding-left: 30px;
     padding-top: 30px;
+}
+
+@media (max-width: 1024px) {
+    .navbar-list {
+        flex-wrap: wrap;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .hero {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .button {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .campus-img {
+        height: auto;
+    }
+
+    .campus-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Noticeboard {
+        width: 90%;
+        height: auto;
+    }
+
+    .COURSES,
+    .Recruiters,
+    .Student,
+    .approval {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .class,
+    .company,
+    .corner,
+    .approval-logo {
+        margin: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        gap: 30px;
+        padding-bottom: 50px;
+    }
+
+    .underline,
+    p2 {
+        position: static;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .top {
+        flex-direction: column;
+        height: auto;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .navbar-list {
+        display: none; 
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .adm-btn {
+        width: 100%;
+    }
+
+    .not-btn {
+        width: 100%;
+    }
+
+    .campus-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Student {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .company img,
+    .approval-logo img {
+        width: 120px;
+    }
 }

@@ -2,37 +2,14 @@ import React from 'react'
 import Image from 'next/image';
 import './page.css';
 import { FaFacebook, FaInstagram, FaYoutube, FaEnvelope } from "react-icons/fa";
+import Header from '../../../components/header';
 
 
 
 function page() {
     return (
         <div>
-            <nav className='navbar'>
-        <ul className='top'>
-          <li>
-            <span>AKTU Code: 340</span>
-            <span>|   BTE Code: 1628   |</span>
-            <span>under NL EDUCATIONAL SOCIETY</span>
-          </li>
-          <li>
-            <span>UPTAC-2025 Online Counselling</span>
-            <span>|   Online Enquiry</span>
-          </li>
-        </ul>
-
-        <ul className='navbar-list'>
-          <li className='vctm'>VCTM</li>
-          <li>About us</li>
-          <li>Campus Life</li>
-          <li>Admissions</li>
-          <li>Administractions</li>
-          <li>Academics</li>
-          <li>Placement</li>
-          <li>Career</li>
-          <li>Contact Us</li>
-        </ul>
-      </nav>
+            <Header />
             <div className='detail'>
                 <div className='about-hd'>
                     <p className='text-2xl text-center text-white pt-2 font-bold'>CAFETERIA</p>

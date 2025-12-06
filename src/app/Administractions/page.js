@@ -1,40 +1,16 @@
 import React from 'react'
 import './page.css';
 import { FaFacebook, FaInstagram, FaYoutube, FaEnvelope } from "react-icons/fa";
-
+import Header from '../../../components/header';
 
 
 function page() {
     return (
         <div>
-            <nav className='navbar'>
-                <ul className='top'>
-                    <li>
-                        <span>AKTU Code: 340</span>
-                        <span>|   BTE Code: 1628   |</span>
-                        <span>under NL EDUCATIONAL SOCIETY</span>
-                    </li>
-                    <li>
-                        <span>UPTAC-2025 Online Counselling</span>
-                        <span>|   Online Enquiry</span>
-                    </li>
-                </ul>
-
-                <ul className='navbar-list'>
-                    <li className='vctm'>VCTM</li>
-                    <li>About us</li>
-                    <li>Campus Life</li>
-                    <li>Admissions</li>
-                    <li>Administractions</li>
-                    <li>Academics</li>
-                    <li>Placement</li>
-                    <li>Career</li>
-                    <li>Contact Us</li>
-                </ul>
-            </nav>
+            <Header />
             <div className='detail'>
                 <div className="w-[900px] mx-auto border border-gray-300 rounded-lg p-6 bg-white shadow-md mt-10">
-                    {/* Anti Ragging Info */}
+                   
                     <h2 className="text-2xl font-bold text-[#294c81] mb-4 text-center">Anti Ragging</h2>
                     <p className="text-gray-800 mb-6 text-justify">
                         The University Grants Commission has recommended strong action against ragging in the institutions of higher learning.
@@ -44,7 +20,6 @@ function page() {
                         The UGC has made it mandatory for all students/parents to submit anti-ragging-related affidavits to the institutions at the time of admission.
                     </p>
 
-                    {/* Committee Members Table */}
                     <h3 className="text-xl font-semibold text-[#294c81] mb-3">Anti-Ragging Committee Members</h3>
                     <table className="w-full border-collapse">
                         <thead>
