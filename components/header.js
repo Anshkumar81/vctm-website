@@ -5,8 +5,6 @@ function Header() {
   return (
     <div>
       <nav className='navbar'>
-
-        {/* TOP BAR */}
         <ul className='top'>
           <li>
             <span>AKTU Code: 340</span>
